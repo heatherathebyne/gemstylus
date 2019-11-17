@@ -1,4 +1,6 @@
-# Faceting Inclinometer
+# GemStylus
+
+![Image of Machine](https://github.com/sobodash/gemstylus/blob/master/machine.jpg?raw=true)
 
 This a simple Arduino project using a 7-segment LED backpack and MPU6050 sensor
 to add digital angle reading to any faceting machine stylus.
