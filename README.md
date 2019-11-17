@@ -1,7 +1,7 @@
-# GemStylus
+# Faceting Inclinometer
 
-GemStylus is a simple Arduino project using a 7-segment LED backpack and MPU6050
-sensor to add digital angle discovery to any faceting machine stylus.
+This a simple Arduino project using a 7-segment LED backpack and MPU6050 sensor
+to add digital angle reading to any faceting machine stylus.
 
 Required components include:
 
@@ -58,8 +58,7 @@ In faceting, we don't care about having the sensor level with the earth: we need
 it level with the spinning lap.
 
 I am going to assume your faceting post is unbent and at a right angle to the lap.
-If it is not, then you have serious problems that no Arduino is going to be able
-to solve.
+If it is not, then you have a serious problem no Arduino is going to be able to solve.
 
 To calibrate, compile and upload this sketch with `float offset = 0;`
 
@@ -77,9 +76,10 @@ Do not be concerned if the digital 90 does not match the protractor's 90. A lot 
 cheap faceting machines come with protractors that are not properly zeroed, and they
 drift considerably. Even a $6 MPU6050 board is probably more accurate.
 
-If you want to further test, because you don't believe me, grab anything soft like a
-chunk of malachite or fluorite and quickly cut some test pieces at 0, 45, and 90 degrees.
-Measure them with a protractor and you should see they are all within 0.4 degrees of
-accuracy.
+If you want to test further, because you don't believe me, grab anything soft like a
+chunk of malachite or fluorite and quickly cut a 96-24-48-72 square girdle, then pick
+any side and cut a 45 degree angle. Remove it from the dop and verify the results with
+a protractor. You should realistically be able to achieve within 0.4 degrees of precision
+if you are using a true lap.
 
 
