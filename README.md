@@ -13,7 +13,7 @@ Required components include:
   * Lots of high temperature hot glue
 
 AliExpress vendors sell faceting arms that take 6mm brass dops and cost as little as
-$50. With this, you can bring many of the bells and whistles of a $5,000 UltraTec V5
+$50. With this, you can bring one of the bells and whistles of a $5,000 UltraTec V5
 to any ancient faceting machine, or even one of those cheap Chinese machines that
 cost $300.
 
