@@ -26,6 +26,7 @@ MPU6050 mpu;
 int16_t angle = 0;
 int16_t last_angle = 0;
 unsigned int pollcount  = 500;
+unsigned int lifesigns = 0;
 
 int16_t axr, ayr, azr;
 
@@ -83,8 +84,13 @@ void loop() {
   // Cast the angle to absolute (removes negative for easy math).
   double absangle = abs(angle) / 100.0;
 
+  // Sign of life counter for troubleshooting sensor vs. mainboard issues
+  lifesigns++;
+
   // Write to the display
   lcd.setCursor(0, 0);
   lcd.print(String(absangle,2));
   lcd.print("          ");
+  lcd.setCursor(0,3);
+  lcd.print(lifesigns);
 }
