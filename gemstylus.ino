@@ -40,12 +40,12 @@ void setup() {
 
   // Update internal sensor offsets for my specific MPU6050
   // Yours will vary
-  mpu.setXAccelOffset(-2742);
-  mpu.setYAccelOffset(-2422);
-  mpu.setZAccelOffset(1076);
-  mpu.setXGyroOffset(69);
-  mpu.setYGyroOffset(149);
-  mpu.setZGyroOffset(41);
+  mpu.setXAccelOffset(-2726);
+  mpu.setYAccelOffset(-2388);
+  mpu.setZAccelOffset(1074);
+  mpu.setXGyroOffset(65);
+  mpu.setYGyroOffset(147);
+  mpu.setZGyroOffset(37);
 
   // Digital low-pass filter mode
   mpu.setDLPFMode(6); // 5Hz
